@@ -13,7 +13,7 @@ while(contador < 3){
 
     console.log(produto);
 
-    if(produto <=0){
+    if(produto >=10){
         alert("Estoque esgotado.");
     } else{
         alert("Ainda em estoque.");
