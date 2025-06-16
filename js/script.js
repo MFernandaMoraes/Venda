@@ -6,6 +6,5 @@ while(contador <=3){
     let(nome) = prompt("Digite seu nome completo: ");
 
     contador = contador + 1;
+    console.log(nome);
 }
-
-console.log(nome);
