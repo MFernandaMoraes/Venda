@@ -1,19 +1,18 @@
 let contador = 0
 
-let produto = 10;
+let racao = 100;
 
 while(contador < 3){
 
-    let produto = prompt("Que produto deseja comprar: ");
-    let quantidade = Number(prompt("Qual a quantidade: "));
+    let quantidade_vendiada = prompt("Quantos Kg de ração deseja comprar: ");
 
-    produto = produto + (quantidade);
+    racao = racao - quantidade_vendiada; 
 
     contador = contador + 1;
 
     console.log(produto);
 
-    if(produto >=10){
+    if(produto = 0){
         alert("Estoque esgotado.");
     } else{
         alert("Ainda em estoque.");
