@@ -1,16 +1,21 @@
 let contador = 0
 
-alert("Cadastro");
+let produto = 10;
 
 while(contador < 3){
-    let nome = prompt("Digite seu nome completo: ");
-    let telefone = prompt("Digite seu telefone: ");
-    let email = prompt("Digite seu email: ");
+
+    let produto = prompt("Que produto deseja comprar: ");
+    let quantidade = Number(prompt("Qual a quantidade: "));
+
+    produto = produto - (quantidade);
+
+    if(produto <=0){
+        alert("Estoque esgotado.");
+    } else{
+        alert("Ainda em estoque.");
+    }
 
     contador = contador + 1;
 
-    console.log("Nome completo: " + nome);
-    console.log("Telefone: " + telefone);
-    console.log("Email: " + email);
-
+    console.log(produto);
 }
