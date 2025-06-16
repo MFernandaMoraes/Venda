@@ -7,7 +7,7 @@ while(contador < 3){
     let produto = prompt("Que produto deseja comprar: ");
     let quantidade = Number(prompt("Qual a quantidade: "));
 
-    produto = produto - (quantidade);
+    produto = produto + (quantidade);
 
     contador = contador + 1;
 
