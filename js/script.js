@@ -10,7 +10,7 @@ while(contador < 3){
 
     contador = contador + 1;
 
-    console.log(produto);
+    console.log(quantidade_vendiada);
 
     if(produto = 0){
         alert("Estoque esgotado.");
