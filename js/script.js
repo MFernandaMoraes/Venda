@@ -9,13 +9,13 @@ while(contador < 3){
 
     produto = produto - (quantidade);
 
+    contador = contador + 1;
+
+    console.log(produto);
+
     if(produto <=0){
         alert("Estoque esgotado.");
     } else{
         alert("Ainda em estoque.");
     }
-
-    contador = contador + 1;
-
-    console.log(produto);
 }
