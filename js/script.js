@@ -2,7 +2,7 @@ let contador = 0
 
 alert("Cadastro");
 
-while(contador <=3){
+while(contador < 3){
     let nome = prompt("Digite seu nome completo: ");
     let telefone = prompt("Digite seu telefone: ");
     let email = prompt("Digite seu email: ");
