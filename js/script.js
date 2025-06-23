@@ -8,19 +8,17 @@ while(contador < 3){
 
     if(quantidade_vendiada > 100){
         alert("Estoque esgotado.");
-    } else{
-        alert("Ainda em estoque.");
     }
 
-    racao = racao - quantidade_vendiada; 
+    // racao = racao - quantidade_vendiada; 
 
     contador = contador + 1;
 
     console.log(quantidade_vendiada);
 
-    if(racao = 0){
-        alert("Estoque esgotado.");
-    } else{
-        alert("Ainda em estoque.");
-    }
+    // if(racao = 0){
+    //     alert("Estoque esgotado.");
+    // } else{
+    //     alert("Ainda em estoque.");
+    // }
 }
