@@ -12,7 +12,7 @@ while(contador < 3){
 
     console.log(quantidade_vendiada);
 
-    if(produto = 0){
+    if(racao = 0){
         alert("Estoque esgotado.");
     } else{
         alert("Ainda em estoque.");
