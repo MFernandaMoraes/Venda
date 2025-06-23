@@ -2,9 +2,11 @@ let contador = 0
 
 let racao = 100;
 
-while(contador < 3){
+function vender(){
 
-    let quantidade_vendida = (document.getElementById("quantidade").value);
+while(contador < 1){
+
+    let quantidade_vendida = document.getElementById("quantidade").value;
 
     if(quantidade_vendida > 100){
         alert("Estoque esgotado.");
@@ -12,5 +14,6 @@ while(contador < 3){
 
     contador = contador + 1;
 
-    console.log(quantidade_vendida);
+    alert(quantidade_vendida);
+}
 }
