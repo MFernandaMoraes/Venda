@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
 </head>
 <body>
-    
+    <form action="" method="post">
+        
+        <label for="quantidade_vendida">
+           Quantos quilos de ração você deseja?
+        </label>
+        <input type="text" name="quantidade_vendida" id="quantidade" placeholder="Digite a quantidade desejada:">    
+
+        <button type="submit" id="mensagem" onclick="document.getElementById('quantidade')">Enviar</button>
+    </form>
 </body>
 </html>
