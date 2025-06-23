@@ -6,6 +6,12 @@ while(contador < 3){
 
     let quantidade_vendiada = prompt("Quantos Kg de ração deseja comprar: ");
 
+    if(quantidade_vendiada > 100){
+        alert("Estoque esgotado.");
+    } else{
+        alert("Ainda em estoque.");
+    }
+
     racao = racao - quantidade_vendiada; 
 
     contador = contador + 1;
